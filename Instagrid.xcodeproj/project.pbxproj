@@ -19,6 +19,8 @@
 		7BF50D94270ADA6600F91864 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7BF50D96270ADA6700F91864 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7BF50D99270ADA6700F91864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7BF50DA0270ADB1700F91864 /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Medium.otf"; sourceTree = "<group>"; };
+		7BF50DA1270ADB1700F91864 /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstySoftRegular.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				7BF50D92270ADA6600F91864 /* InstagridApp.swift */,
+				7BF50DA0270ADB1700F91864 /* Delm-Medium.otf */,
+				7BF50DA1270ADB1700F91864 /* ThirstySoftRegular.otf */,
 				7BF50D94270ADA6600F91864 /* ContentView.swift */,
 				7BF50D96270ADA6700F91864 /* Assets.xcassets */,
 				7BF50D98270ADA6700F91864 /* Preview Content */,
