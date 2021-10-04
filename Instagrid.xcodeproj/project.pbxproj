@@ -11,6 +11,7 @@
 		7BF50D95270ADA6600F91864 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF50D94270ADA6600F91864 /* ContentView.swift */; };
 		7BF50D97270ADA6700F91864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF50D96270ADA6700F91864 /* Assets.xcassets */; };
 		7BF50D9A270ADA6700F91864 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF50D99270ADA6700F91864 /* Preview Assets.xcassets */; };
+		7BF50DA3270AE4E200F91864 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF50DA2270AE4E200F91864 /* Constant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		7BF50D99270ADA6700F91864 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7BF50DA0270ADB1700F91864 /* Delm-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Delm-Medium.otf"; sourceTree = "<group>"; };
 		7BF50DA1270ADB1700F91864 /* ThirstySoftRegular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThirstySoftRegular.otf; sourceTree = "<group>"; };
+		7BF50DA2270AE4E200F91864 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				7BF50DA0270ADB1700F91864 /* Delm-Medium.otf */,
 				7BF50DA1270ADB1700F91864 /* ThirstySoftRegular.otf */,
 				7BF50D94270ADA6600F91864 /* ContentView.swift */,
+				7BF50DA2270AE4E200F91864 /* Constant.swift */,
 				7BF50D96270ADA6700F91864 /* Assets.xcassets */,
 				7BF50D98270ADA6700F91864 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 			files = (
 				7BF50D95270ADA6600F91864 /* ContentView.swift in Sources */,
 				7BF50D93270ADA6600F91864 /* InstagridApp.swift in Sources */,
+				7BF50DA3270AE4E200F91864 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +283,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -291,7 +296,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -309,6 +314,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -321,7 +327,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
