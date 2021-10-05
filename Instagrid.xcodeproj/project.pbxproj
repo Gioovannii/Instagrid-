@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BF366AA270C2CFA0075C4FB /* GridLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF366A9270C2CFA0075C4FB /* GridLayoutView.swift */; };
 		7BF50D93270ADA6600F91864 /* InstagridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF50D92270ADA6600F91864 /* InstagridApp.swift */; };
 		7BF50D95270ADA6600F91864 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF50D94270ADA6600F91864 /* ContentView.swift */; };
 		7BF50D97270ADA6700F91864 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BF50D96270ADA6700F91864 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7BF366A9270C2CFA0075C4FB /* GridLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutView.swift; sourceTree = "<group>"; };
 		7BF50D8F270ADA6600F91864 /* Instagrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF50D92270ADA6600F91864 /* InstagridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagridApp.swift; sourceTree = "<group>"; };
 		7BF50D94270ADA6600F91864 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				7BF50DA0270ADB1700F91864 /* Delm-Medium.otf */,
 				7BF50DA1270ADB1700F91864 /* ThirstySoftRegular.otf */,
 				7BF50D94270ADA6600F91864 /* ContentView.swift */,
+				7BF366A9270C2CFA0075C4FB /* GridLayoutView.swift */,
 				7BF50DA4270AF73F00F91864 /* ChoiceButtonView.swift */,
 				7BF50DA2270AE4E200F91864 /* Constant.swift */,
 				7BF50D96270ADA6700F91864 /* Assets.xcassets */,
@@ -148,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BF50D95270ADA6600F91864 /* ContentView.swift in Sources */,
+				7BF366AA270C2CFA0075C4FB /* GridLayoutView.swift in Sources */,
 				7BF50D93270ADA6600F91864 /* InstagridApp.swift in Sources */,
 				7BF50DA3270AE4E200F91864 /* Constant.swift in Sources */,
 				7BF50DA5270AF73F00F91864 /* ChoiceButtonView.swift in Sources */,
