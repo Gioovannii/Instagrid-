@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-   
-    
     var body: some View {
         ZStack {
             LinearGradient(colors: [.blue,.red], startPoint: .top, endPoint: .bottom)
@@ -21,6 +19,7 @@ struct ContentView: View {
                 
                 Button(action: { print("action done !") }) {
                     VStack {
+                        
                         Image(systemName: "arrow.up.square.fill")
                             .resizable()
                             .frame(width: 30, height: 30)
@@ -34,6 +33,8 @@ struct ContentView: View {
                 GridLayoutView()
 
                 ChoiceButtonView()
+                Spacer()
+
             }
         }
     }
