@@ -44,9 +44,15 @@ struct GridLayoutView: View {
                     self.isImagePickerDisplay.toggle()
                 }) {
                     HStack(spacing: 10) {
-                        Image(uiImage: Constant.imagePicture)
-                            .resizable()
-                            .frame(width: 120, height: 120, alignment: .center)
+                        if selectedImage != nil {
+                            Image(uiImage: selectedImage[1] ?? UIImage())
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                        } else {
+                            Image(uiImage: Constant.imagePicture)
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                        }
                     }
                     .opacity(hideButtonBR ? 0 : 1)
                 }
