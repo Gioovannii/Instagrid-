@@ -17,8 +17,10 @@ struct GridLayoutView: View {
         VStack {
             HStack {
                 Button(action: { print("Top Left tapped")
-                    hideButtonTL.toggle()
-                }) {
+                    self.sourceType = .camera
+                    self.isImagePickerDisplay.toggle()
+                })
+                    {
                     HStack(spacing: 10) {
                         Image(uiImage: Constant.imagePicture)
                             .resizable()
