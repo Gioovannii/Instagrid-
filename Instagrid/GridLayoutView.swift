@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct GridLayoutView: View {
-    @State private var hideButtonTL = false
-    @State private var hideButtonTR = false
-    @State private var hideButtonBL = false
-    @State private var hideButtonBR = false
+    
+    @State private var sourceType: UIImagePickerController.SourceType = .photoLibrary
+    @State private var selectedImage: [UIImage?]
+    @State private var isImagePickerDisplay = false
     
     var body: some View {
         VStack {
