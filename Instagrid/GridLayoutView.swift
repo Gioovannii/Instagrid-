@@ -54,7 +54,9 @@ struct GridLayoutView: View {
                                 .aspectRatio(contentMode: .fit)
                         }
                     }
-                    .opacity(hideButtonBR ? 0 : 1)
+                }
+                .sheet(isPresented: $isImagePickerDisplay) {
+                    ImagePickerView(selectedImage: $selectedImage[1], sourceType: self.sourceType)
                 }
             }
             
