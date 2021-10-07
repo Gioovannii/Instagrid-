@@ -40,32 +40,8 @@ struct GridLayoutView: View {
                 
                 
                 Button(action: { print("Top Right tapped")
-                    hideButtonTR.toggle()
-                }) {
-                    HStack(spacing: 10) {
-                        Image(uiImage: Constant.imagePicture)
-                            .resizable()
-                            .frame(width: 120, height: 120, alignment: .center)
-                    }
-                    .opacity(hideButtonTR ? 0 : 1)
-                }
-            }
-            
-            
-            HStack {
-                Button(action: { print("Bottom left tapped")
-                    hideButtonBL.toggle()
-                }) {
-                    HStack(spacing: 10) {
-                        Image(uiImage: Constant.imagePicture)
-                            .resizable()
-                            .frame(width: 120, height: 120, alignment: .center)
-                    }
-                    .opacity(hideButtonBL ? 0 : 1)
-                }
-                
-                Button(action: { print("Bottom right tapped")
-                    hideButtonBR.toggle()
+                    self.sourceType = .camera
+                    self.isImagePickerDisplay.toggle()
                 }) {
                     HStack(spacing: 10) {
                         Image(uiImage: Constant.imagePicture)
@@ -87,6 +63,6 @@ struct GridLayoutView: View {
 
 struct GridLayoutView_Previews: PreviewProvider {
     static var previews: some View {
-        GridLayoutView()
+        GridLayoutView(selectedImage: [Image(uiImage: Constant.imagePicture)])
     }
 }
