@@ -32,9 +32,11 @@ struct GridLayoutView: View {
                                 .aspectRatio(contentMode: .fit)
                         }
                     }
-                    .opacity(hideButtonTL ? 0 : 1)
                 }
-                
+                .sheet(isPresented: $isImagePickerDisplay) {
+                    ImagePickerView(selectedImage: $selectedImage[0], sourceType: .camera)
+                    ImagePickerView(selectedImage: $selectedImage[0], sourceType: .photoLibrary)
+                }
                 
                 
                 Button(action: { print("Top Right tapped")
