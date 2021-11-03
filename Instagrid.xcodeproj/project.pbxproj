@@ -21,7 +21,7 @@
 /* Begin PBXFileReference section */
 		7B9B1565270D813700B8EC18 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		7BF366A9270C2CFA0075C4FB /* GridLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridLayoutView.swift; sourceTree = "<group>"; };
-		7BF366AB270C33D60075C4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7BF366AB270C33D60075C4FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BF366AC270C36D50075C4FB /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 		7BF50D8F270ADA6600F91864 /* Instagrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF50D92270ADA6600F91864 /* InstagridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagridApp.swift; sourceTree = "<group>"; };
@@ -45,6 +45,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7BA8E23C273273AE00CE5388 /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BF366AB270C33D60075C4FB /* Info.plist */,
+				7BF50DA1270ADB1700F91864 /* ThirstySoftRegular.otf */,
+				7BF50DA0270ADB1700F91864 /* Delm-Medium.otf */,
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		7BA8E23D273273CB00CE5388 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7BF50DA2270AE4E200F91864 /* Constant.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7BA8E23E273273E300CE5388 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7B9B1565270D813700B8EC18 /* Coordinator.swift */,
+				7BF366AC270C36D50075C4FB /* ImagePickerView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7BA8E23F2732740C00CE5388 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7BF50D94270ADA6600F91864 /* ContentView.swift */,
+				7BF50DA4270AF73F00F91864 /* ChoiceButtonView.swift */,
+				7BF366A9270C2CFA0075C4FB /* GridLayoutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		7BF50D86270ADA6500F91864 = {
 			isa = PBXGroup;
 			children = (
@@ -64,16 +101,11 @@
 		7BF50D91270ADA6600F91864 /* Instagrid */ = {
 			isa = PBXGroup;
 			children = (
-				7BF366AB270C33D60075C4FB /* Info.plist */,
 				7BF50D92270ADA6600F91864 /* InstagridApp.swift */,
-				7BF50DA0270ADB1700F91864 /* Delm-Medium.otf */,
-				7BF50DA1270ADB1700F91864 /* ThirstySoftRegular.otf */,
-				7BF50D94270ADA6600F91864 /* ContentView.swift */,
-				7BF366AC270C36D50075C4FB /* ImagePickerView.swift */,
-				7B9B1565270D813700B8EC18 /* Coordinator.swift */,
-				7BF366A9270C2CFA0075C4FB /* GridLayoutView.swift */,
-				7BF50DA4270AF73F00F91864 /* ChoiceButtonView.swift */,
-				7BF50DA2270AE4E200F91864 /* Constant.swift */,
+				7BA8E23C273273AE00CE5388 /* Supported Files */,
+				7BA8E23E273273E300CE5388 /* Helpers */,
+				7BA8E23D273273CB00CE5388 /* Model */,
+				7BA8E23F2732740C00CE5388 /* Views */,
 				7BF50D96270ADA6700F91864 /* Assets.xcassets */,
 				7BF50D98270ADA6700F91864 /* Preview Content */,
 			);
@@ -298,7 +330,7 @@
 				DEVELOPMENT_TEAM = 5K8DY798Z4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Instagrid/Info.plist;
+				INFOPLIST_FILE = "Instagrid/Supported Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -330,7 +362,7 @@
 				DEVELOPMENT_TEAM = 5K8DY798Z4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Instagrid/Info.plist;
+				INFOPLIST_FILE = "Instagrid/Supported Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
